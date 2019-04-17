@@ -7,7 +7,7 @@ RUN apt-get install -y vim wget curl git
 
 #One Time Staging Steps
 
-RUN git clone https://github.com/adrian-zumbler/api-sdk-python
+RUN git clone https://github.com/banregiolabs/api-sdk-python
 WORKDIR /api-sdk-python
 
 #additional python libs
